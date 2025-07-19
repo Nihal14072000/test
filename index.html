@@ -2,9 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello World</title>
+    <title>SunnySide Poultry Farm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {font-family: Arial, sans-serif; background: #f8fafc; color: #222; margin: 0; padding: 0;}
+        header {background: #ffe066; padding: 2rem 1rem; text-align: center;}
+        h1 {margin: 0 0 0.5rem 0;}
+        nav {background: #fff; border-bottom: 1px solid #eee; padding: 0.5rem; text-align: center;}
+        nav a {margin: 0 1rem; color: #222; text-decoration: none; font-weight: bold;}
+        section {max-width: 900px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 8px; box-shadow: 0 0 24px #eee;}
+        .highlight {color: #f59e42;}
+        .info-list {list-style: none; padding: 0;}
+        .info-list li {margin-bottom: 0.7em;}
+        .team {display: flex; gap: 2rem;}
+        .team-member {flex: 1; text-align: center;}
+        .team-member img {border-radius: 50%; width: 80px; height: 80px; margin-bottom: 0.5em;}
+        footer {text-align: center; padding: 2rem 1rem; background: #ffe066; margin-top: 2rem;}
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <h1>SunnySide Poultry Farm</h1>
+        <p class="highlight">Fresh, Healthy &amp; Organic Poultry Products</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#products">Our Products</a>
+        <a href="#team">Meet the Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Welcome to <strong>SunnySide Poultry Farm</strong>, your trusted source for premium quality poultry products. Established in 2010, we are passionate about providing fresh eggs, organic chicken, and specialty poultry for your family and business needs.
+        </p>
+        <ul class="info-list">
+            <li><strong>Location:</strong> 123 Farm Lane, Countryside, State</li>
+            <li><strong>Business Hours:</strong> Mon-Sat 7:00 AM - 6:00 PM</li>
+            <li><strong>What makes us unique?</strong> Naturally raised poultry, hormone-free, farm-fresh guarantee, and doorstep delivery!</li>
+        </ul>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <ul class="info-list">
+            <li><strong>Fresh Eggs</strong> (White & Brown, Organic)</li>
+            <li><strong>Broiler & Country Chickens</strong></li>
+            <li><strong>Duck Eggs & Meat</strong></li>
+            <li><strong>Quail & Turkey (seasonal)</strong></li>
+            <li><strong>Bulk & Retail Orders Welcome</strong></li>
+        </ul>
+    </section>
+    <section id="team">
+        <h2>Meet the Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Owner">
+                <h4>Nihal Kumar</h4>
+                <p>Founder & Owner</p>
+            </div>
+            <div class="team-member">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Manager">
+                <h4>Priya Sharma</h4>
+                <p>Farm Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Delivery">
+                <h4>Rahul Gupta</h4>
+                <p>Delivery Specialist</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <ul class="info-list">
+            <li><strong>Phone:</strong> (+91) 98765-43210</li>
+            <li><strong>Email:</strong> info@sunnysidepoultry.com</li>
+            <li><strong>Visit:</strong> 123 Farm Lane, Countryside, State</li>
+        </ul>
+        <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </section>
+    <footer>
+        &copy; 2025 SunnySide Poultry Farm. All rights reserved.
+    </footer>
 </body>
 </html>
